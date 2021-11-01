@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.header {
+  background-color: #1F2937;
+  color: #ccc;
+  text-align: center;
+  border-bottom: 1px solid;
+  box-sizing: border-box;
+  padding: 120px
+}
+.body1 {
+  height: 300px;
+  padding: 8px;
+  background: white;
+  border: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+
+}
+.logo {
+    position: relative;
+}
+.logo img {
+    position: absolute;
+    top: -100px;
+    left: 0px;
+}
+.txt {
+    text-align:left;
+}
+.image {
+    position: relative;
+}
+.image img {
+    position: absolute;
+    top: -250px;
+    right: 0px;
+}
+.nav-ez {
+  position: absolute;
+  top: -100%;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.header-right {
+  float: right;
+  font-size: 1em;
+}
+.header-right a {
+    float: right;
+    color: #E5E7EB;
+    font-size: 1.2em;
+    padding: 20px;
+    display:block;
+}
+.item {
+  width: 240px;
+  height: 200px;
+  border: 1px solid whitesmoke;
+  background: whitesmoke;
+}
+.body2 {
+    background-color:gray;
+    height: 150px;
+    padding: 50px;
+    border: 1px;
+
+ }
+.footer {
+    background-color: white;
+    height: 200px;
+    border: 1px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.item2 { 
+    border-radius: 1em;
+    background-color:#3882F6;
+    height: 150px;
+    width: 600px
+}
+</style>
+<body>
+    <div class="header-right">
+        <a href="contact">Contact</a>
+        <a href="about">About</a>
+        <a href="home">Home</a>
+    </div>
+
+       <div class="header">
+
+           <div class="logo">
+               <img src="eeigc.jpg">
+           </div>
+           <div class="txt">
+               <h1 style="color: #F9FAF8; font-size:48px; font-style: bold;">This website is
+                <br> awesome</h1>
+               <p style="color: #E5E7EB; font-size: 18px">This website were built mainly <br>
+                 (but not limited to) fresh graduates to help boost<br>
+                 their job hunting effort by making their resume <br>
+                  attractive and easy to read. </p>
+                  <button type="submit" class="signupbtn">Sign Up</button>
+           </div>
+           <div class="image">
+               <img src="555.jpeg" style="width:400px;height:250px;">
+           </div>  
+       </div>
+       <h2 style="text-align: center;">Some random text</h2>
+    <div class="body1">
+        
+        <div class="item">
+            <img src="111.jpeg" style="width: 240px; height: 80px;">
+            <p>Beautiful Lizard found south west fo Ethiopia</p>
+        </div>
+        <div class="item">
+            <img src="222.jpeg" style="width: 240px; height: 80px;">
+            <p>Plant</p>
+        </div>
+        <div class="item">
+            <img src="333.jpeg" style="width: 240px; height: 80px;">
+            <p>Bumblebee like any bees lives in a large group called colonies.</p>
+        </div>
+        <div class="item">
+            <img src="444.jpeg" style="width: 120px; height: 80px;">
+            <p>A bumblebee is any of over 250 species in the genus
+                 Bombus, part of Apidae, one of the bee families.</p>
+        </div>
+
+    </div>
+    <div class="body2" style="text-align: center; font-style: italic; font-size: large;">
+        <p>“I am enough of an artist to draw freely upon my imagination. 
+            Imagination is more important than knowledge. Knowledge is limited. 
+            Imagination encircles the world.” <br> Albert Einstein</p>
+    </div>
+    <div class="footer">
+        <div class="item2">
+            <h3>Call for action! It is time!</h3>
+            <p>Sign up for our products by clicking bellow button.</p>
+            <div style="float: left;"><button type="submit" class="signupbtn">Sign Up</button></div>
+        </div>
+        
+    </div>
+</body>
+</html>
